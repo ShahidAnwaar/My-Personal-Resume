@@ -39,8 +39,9 @@ h6 {
 .intro-img {
     padding-bottom: 13px;
 }
-.title{
+.title {
     padding-top: 29px;
+    color: #5E4CE6;
 }
 .intro-detail {
     padding: 5% 0;
@@ -202,5 +203,8 @@ h6 {
     }
     .contact-body {
         margin: 0;
+    }
+    .navbar{
+        text-align: left;
     }
 }
