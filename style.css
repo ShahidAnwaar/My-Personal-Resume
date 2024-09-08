@@ -1,0 +1,206 @@
+
+h1 {
+    color: #231971;
+    font-weight: 900;
+}
+p {
+    color: #413E58;
+}
+h2 {
+    color: #231971;
+    text-align: left;
+    font-weight: 800;
+}
+h4 {
+    color: #231971;
+    font-weight: 700;
+    font-size: 19px;
+}
+h5 {
+    color: #484463;
+    font-weight: 800;
+    font-size: 18px;
+}
+h6 {
+    color: #7166D2;
+    font-weight: 700;
+    font-size: 17px;
+    text-decoration: underline;
+}
+
+
+#intro {
+    background-color: #DCD5FC;
+    padding: 2% 5% 0;
+}
+.intro-desc{
+    padding-right: 10%;
+}
+.intro-img {
+    padding-bottom: 13px;
+}
+.title{
+    padding-top: 29px;
+}
+.intro-detail {
+    padding: 5% 0;
+}
+.btn-outline-primary {
+    color: #ffffff;
+    background-color: #5E4CE6;
+}
+    .btn-outline-primary:hover {
+        background-color: #231971;
+    }
+
+
+
+#edu {
+    background-color: #5E4CE6;
+    padding: 4% 5%;
+    color: white;
+}
+.edu-detail {
+    margin: auto;
+}
+.card {
+    padding: 4% 0;
+    border-radius: 10px;
+    margin: 1%;
+    background-color: #D2CCFC;
+}
+.all-cards{
+    padding: 2% 0;
+}
+.se {
+    font-size: 18px;
+}
+.edu-heading{
+    color: white;
+}
+.study-date {
+    font-size: 14px;
+}
+
+
+
+#hobbies {
+    background-color: #F1EBFB;
+    padding: 5% 15%;
+    text-align: left;
+}
+.hobbies-desc {
+    margin: 10px;
+    border-radius: 15px;
+    background-color: #8679EC;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+    padding: 3% 10%;
+}
+
+
+
+#about {
+    background-color: #CAEAF9;
+    padding: 5% 15%;
+    text-align: left;
+}
+
+
+
+
+#skills {
+    background-color: #36C2e1;
+    padding: 5% 10%;
+}
+.skills-item-detail {
+    padding: 9% 5%;
+    border: solid 1px white;
+    border-radius: 10px;
+    height: 100%;
+}
+.skills-para {
+    color: ghostwhite;
+    font-weight: 500;
+}
+.skills-desc-heading {
+    color: white;
+}
+.skills-desc {
+    background-color: #C6C5FA;
+}
+.skill-head{
+    color: white;
+}
+.skill-item {
+    padding: 1%;
+}
+
+
+
+#contact {
+    background-color: #5E4CE6;
+    padding: 3% 10%;
+    color: white;
+    text-align: center;
+}
+
+.contact-heading {
+    color: white;
+    font-size: 22px;
+}
+
+.contact-body {
+    font-size: 16px;
+    font-weight: 500;
+    color: #D2CCFC;
+    margin: 2%;
+    width: 100%;
+    text-align: left;
+}
+
+.table-items {
+    padding: 0.5% 3%;
+}
+
+.personal-icons {
+    color: darkblue;
+    margin: 10px 13px;
+    text-decoration: none;
+}
+
+    .personal-icons:hover {
+        color: #EAF6F6;
+    }
+
+.copyright {
+    color: whitesmoke;
+    font-size: 13px;
+}
+
+
+
+
+@media (max-width: 575px) {
+    body{
+    text-align: center;
+    }
+    .intro-desc {
+        padding: 5px 43px;
+    }
+    .intro-img {
+        margin: auto;
+        padding-top: 22px;
+        width: 200px;
+    }
+    .table-items {
+        padding: 0.5% 0%;
+    }
+    #contact {
+        padding: 3% 3%;
+    }
+    .contact-body {
+        margin: 0;
+    }
+}
